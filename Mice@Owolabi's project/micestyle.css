@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  color: #222;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0.8rem;
+  border-bottom: rgba(255, 153, 0) solid 5px;
+}
+
+.navbar-brand {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* color: #e600e6 !important ; */
+  font-size: 25px;
+  margin: 15px;
+  margin-top: 25px;
+  color: #222;
+  font-weight: lighter;
+  font-size: small;
+}
+
+.navbar-brand span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: xx-large;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 153, 0);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.btn btn-warning:hover {
+  color: rgb(255, 153, 0);
+}
+
+/* SECTION 3 start text with image jumbutron */
+.orgehead {
+  color: rgb(255, 153, 0);
+  font-size: bold;
+}
+
+.porgehead {
+  font-size: medium;
+  padding-top: 20px;
+}
+
+/* section 6 Upcoming event {image} */
+#img1 {
+  float: left;
+}
+#img2 {
+  float: right;
+}
+
+.rounder-border {
+  background: rgb(255, 153, 0);
+  border: 5px solid rgb(255, 153, 0);
+  box-sizing: border-box;
+  border-radius: 100px;
+  text-align: center;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: small;
+  top: 20px;
+  left: 30px;
+}
+
+.like-btn {
+  background: rgb(255, 153, 0);
+  border: 5px solid rgb(255, 153, 0);
+  box-sizing: border-box;
+  border-radius: 100px;
+  margin-top: 5px;
+}
+
+/* section 7 Footer  */
+.micelogofrfooter {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* color: #e600e6 !important ; */
+  font-size: 25px;
+  margin: 15px;
+  margin-top: 25px;
+  color: #222;
+  /* font-weight: lighter; */
+  font-size: x-large;
+}
+.logospan {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 153, 0);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 5px;
+}
+.second-content {
+  padding: 10px;
+  margin-right: 5px;
+}
+ul {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.second-content a {
+  color: #222;
+}
